@@ -1,65 +1,177 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ConfortLab - Ingeniería para tu hogar</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConfortLab - Diseño de Proyectos Personalizados</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <header>
-    <h1>ConfortLab</h1>
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#quienes">Quiénes Somos</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
+  <header class="main-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>ConfortLab</h1>
+          <p class="tagline">Diseño inteligente para espacios perfectos</p>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="planificador.html" class="btn primary-btn">Planificar Proyecto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
-  <section id="inicio" class="hero">
-    <h2>Ingeniería para tu bienestar en casa</h2>
-    <p>Soluciones técnicas para mejorar tu espacio.</p>
-    <a href="#contacto" class="btn">Contáctanos</a>
-  </section>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Transforma tu espacio en una obra de ingeniería doméstica</h2>
+          <p class="hero-text">Diseños personalizados que combinan funcionalidad, estética y confort para crear el hogar que siempre soñaste.</p>
+          <div class="hero-actions">
+            <a href="planificador.html" class="btn primary-btn">Comenzar mi proyecto</a>
+            <a href="#servicios" class="btn secondary-btn">Ver servicios</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="servicios">
-    <h2>Servicios</h2>
-    <ul>
-      <li>🔌 Instalaciones eléctricas</li>
-      <li>🌬️ Climatización inteligente</li>
-      <li>🔋 Energía solar doméstica</li>
-      <li>🏠 Automatización del hogar</li>
-      <li>📐 Diseño de proyectos personalizados</li>
-    </ul>
-  </section>
+    <section id="servicios" class="services-section">
+      <div class="container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <img src="icons/design.svg" alt="Diseño">
+            </div>
+            <h3>Diseño Personalizado</h3>
+            <p>Soluciones a medida para cada espacio y necesidad.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <img src="icons/renovation.svg" alt="Renovación">
+            </div>
+            <h3>Renovaciones</h3>
+            <p>Transformamos tus espacios existentes con diseños innovadores.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <img src="icons/consulting.svg" alt="Consultoría">
+            </div>
+            <h3>Consultoría</h3>
+            <p>Asesoramiento experto para tus proyectos de mejora.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="quienes">
-    <h2>Quiénes Somos</h2>
-    <p>En ConfortLab nos dedicamos a transformar viviendas en espacios eficientes, confortables y tecnológicos.</p>
-  </section>
+    <section id="proyectos" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/proyecto1.jpg" alt="Reforma Integral">
+            </div>
+            <div class="project-info">
+              <h3>Reforma Integral</h3>
+              <p>Cocina abierta con isla central</p>
+              <a href="#" class="btn small-btn">Ver detalles</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/proyecto2.jpg" alt="Diseño de Oficina">
+            </div>
+            <div class="project-info">
+              <h3>Diseño de Oficina</h3>
+              <p>Espacio de trabajo en casa</p>
+              <a href="#" class="btn small-btn">Ver detalles</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/proyecto3.jpg" alt="Baño Moderno">
+            </div>
+            <div class="project-info">
+              <h3>Baño Moderno</h3>
+              <p>Renovación completa con materiales premium</p>
+              <a href="#" class="btn small-btn">Ver detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <p>Aquí podrás ver algunos de nuestros trabajos realizados. (Imágenes próximamente)</p>
-  </section>
+    <section id="nosotros" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="section-title">Sobre ConfortLab</h2>
+            <p>Somos un equipo de diseñadores y arquitectos apasionados por crear espacios que mejoren la calidad de vida. Combinamos innovación, funcionalidad y estética para ofrecer soluciones únicas.</p>
+            <ul class="about-features">
+              <li>+150 proyectos completados</li>
+              <li>Equipo multidisciplinario</li>
+              <li>Enfoque centrado en el cliente</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img src="images/equipo.jpg" alt="Equipo ConfortLab">
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <form id="form-contacto">
-      <input type="text" placeholder="Tu nombre" required />
-      <input type="email" placeholder="Tu correo" required />
-      <textarea placeholder="Escríbenos tu consulta..." required></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-content">
+          <h2>¿Listo para transformar tu espacio?</h2>
+          <p>Comienza tu proyecto hoy mismo con nuestro planificador online.</p>
+          <a href="planificador.html" class="btn primary-btn">Planificar ahora</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  <footer>
-    <p>&copy; 2025 ConfortLab. Todos los derechos reservados.</p>
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>ConfortLab</h3>
+          <p>Diseño inteligente para espacios perfectos</p>
+          <p>contacto@confortlab.com</p>
+          <p>+34 123 456 789</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="planificador.html">Planificador</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <div class="social-icons">
+            <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="icons/pinterest.svg" alt="Pinterest"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ConfortLab. Todos los derechos reservados.</p>
+      </div>
+    </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>

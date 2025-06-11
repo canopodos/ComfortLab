@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planificador de Proyecto - ConfortLab</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="secondary-header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="back-btn">← Volver al inicio</a>
+        <div class="header-text">
+          <h1>Planificador de Proyecto</h1>
+          <p class="subtitle">Completa este formulario para comenzar tu diseño personalizado</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="form-container">
+        <form id="project-form" class="project-form">
+          <div class="form-header">
+            <h2>Información del Cliente</h2>
+            <p>Por favor, completa tus datos personales</p>
+          </div>
+          
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="nombre">Nombre completo*</label>
+              <input type="text" id="nombre" required placeholder="Ej: María González López">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email*</label>
+              <input type="email" id="email" required placeholder="Ej: ejemplo@email.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" placeholder="Ej: +34 600 000 000">
+            </div>
+            
+            <div class="form-group full-width">
+              <label for="descripcion">Descripción detallada del proyecto*</label>
+              <textarea id="descripcion" rows="6" required placeholder="Describe qué necesitas, tus preferencias de estilo, colores, funcionalidades especiales, etc."></textarea>
+            </div>
+            
+            <div class="form-group full-width">
+              <label for="imagenes">Fotos del espacio*</label>
+              <div class="file-upload">
+                <input type="file" id="imagenes" accept="image/*" multiple required>
+                <label for="imagenes" class="file-upload-label">
+                  <span class="file-upload-icon">+</span>
+                  <span class="file-upload-text">Sube fotos de tu espacio (puedes seleccionar varias)</span>
+                </label>
+              </div>
+              <div id="file-preview" class="file-preview"></div>
+            </div>
+          </div>
+          
+          <div class="form-actions">
+            <button type="submit" class="btn primary-btn">Generar Informe PDF</button>
+            <button type="reset" class="btn secondary-btn">Limpiar formulario</button>
+          </div>
+        </form>
+        
+        <div class="form-sidebar">
+          <div class="sidebar-card">
+            <h3>Consejos para tu proyecto</h3>
+            <ul class="tips-list">
+              <li>Incluye fotos desde diferentes ángulos</li>
+              <li>Describe cómo usas actualmente el espacio</li>
+              <li>Menciona tus preferencias de estilo</li>
+              <li>Indica si necesitas soluciones específicas</li>
+              <li>Señala qué te gustaría conservar (si aplica)</li>
+            </ul>
+          </div>
+          
+          <div class="sidebar-card contact-card">
+            <h3>¿Necesitas ayuda?</h3>
+            <p>Nuestro equipo está disponible para asesorarte</p>
+            <a href="#" class="btn small-btn">Contactar a un diseñador</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>ConfortLab</h3>
+          <p>Diseño inteligente para espacios perfectos</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces rápidos</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#servicios">Servicios</a></li>
+            <li><a href="index.html#proyectos">Proyectos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ConfortLab. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
