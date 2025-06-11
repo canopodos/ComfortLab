@@ -1,16 +1,28 @@
-# GitHub Pages
+# ConfortLab
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+Sitio web oficial de **ConfortLab**, una empresa dedicada a ofrecer soluciones de ingeniería para el hogar: automatización, energía, climatización y más.
 
-Hey canopodos!
+## 🌐 Tecnologías usadas
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+- HTML5
+- CSS3
+- JavaScript
+- Diseño responsive
 
-Remember, it's self-paced so feel free to take a break! ☕️
+## 🚀 Cómo ver el sitio
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/canopodos/ComfortLab/issues/1)
+Puedes subir el sitio fácilmente a:
+
+- [Netlify](https://www.netlify.com/): solo arrastra esta carpeta.
+- [GitHub Pages](https://pages.github.com/): sube los archivos a un repositorio público y habilita Pages desde los ajustes.
+
+## 📂 Estructura
+
+- `index.html`: Página principal
+- `style.css`: Estilos de la web
+- `script.js`: JS básico para el formulario
+- `assets/`: Contiene imágenes, logos y multimedia
 
 ---
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+**Diseñado con ❤️ por ConfortLab**
